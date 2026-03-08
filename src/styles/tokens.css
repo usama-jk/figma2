@@ -1,0 +1,139 @@
+/* src/styles/tokens.css
+   Design token CSS variables extracted from Figma Components-2
+   ------------------------------------------------------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  /* ---- Brand ---- */
+  --color-brand-25:  #fcfaff;
+  --color-brand-50:  #f9f5ff;
+  --color-brand-100: #f4ebff;
+  --color-brand-200: #e9d7fe;
+  --color-brand-300: #d6bbfb;
+  --color-brand-400: #b692f6;
+  --color-brand-500: #9e77ed;
+  --color-brand-600: #7f56d9;
+  --color-brand-700: #6941c6;
+  --color-brand-800: #53389e;
+  --color-brand-900: #42307d;
+
+  /* ---- Gray ---- */
+  --color-gray-25:  #fcfcfd;
+  --color-gray-50:  #f9fafb;
+  --color-gray-100: #f2f4f7;
+  --color-gray-200: #eaecf0;
+  --color-gray-300: #d0d5dd;
+  --color-gray-400: #98a2b3;
+  --color-gray-500: #667085;
+  --color-gray-600: #475467;
+  --color-gray-700: #344054;
+  --color-gray-800: #182230;
+  --color-gray-900: #101828;
+  --color-gray-950: #0c111d;
+
+  /* ---- Error ---- */
+  --color-error-300: #fda29b;
+  --color-error-500: #f04438;
+  --color-error-600: #d92d20;
+  --color-error-700: #b42318;
+
+  /* ---- Text ---- */
+  --color-text-primary:          #181d27;
+  --color-text-secondary:        #414651;
+  --color-text-tertiary:         #535862;
+  --color-text-placeholder:      #717680;
+  --color-text-disabled:         #a4a7ae;
+  --color-text-brand:            #7f56d9;
+  --color-text-brand-secondary:  #6941c6;
+  --color-text-error:            #d92d20;
+  --color-text-white:            #ffffff;
+
+  /* ---- Background ---- */
+  --color-bg-primary:    #ffffff;
+  --color-bg-secondary:  #f9fafb;
+  --color-bg-tertiary:   #f5f5f5;
+  --color-bg-disabled:   #f2f4f7;
+  --color-bg-overlay:    rgba(10, 13, 18, 0.6);
+
+  /* ---- Border ---- */
+  --color-border-primary:   #d5d7da;
+  --color-border-secondary: #e9eaeb;
+  --color-border-brand:     #7f56d9;
+  --color-border-error:     #f04438;
+  --color-border-disabled:  #e9eaeb;
+
+  /* ---- Button: Primary ---- */
+  --btn-primary-bg:           #7f56d9;
+  --btn-primary-bg-hover:     #6941c6;
+  --btn-primary-bg-active:    #6941c6;
+  --btn-primary-fg:           #ffffff;
+  --btn-primary-border:       #7f56d9;
+  --btn-primary-border-hover: #6941c6;
+
+  /* ---- Button: Secondary Color ---- */
+  --btn-secondary-color-bg:          #f9f5ff;
+  --btn-secondary-color-bg-hover:    #f4ebff;
+  --btn-secondary-color-fg:          #6941c6;
+  --btn-secondary-color-border:      #e9d7fe;
+  --btn-secondary-color-border-hover:#d6bbfb;
+
+  /* ---- Button: Secondary Gray ---- */
+  --btn-secondary-gray-bg:          #ffffff;
+  --btn-secondary-gray-bg-hover:    #f9fafb;
+  --btn-secondary-gray-fg:          #414651;
+  --btn-secondary-gray-border:      #d5d7da;
+  --btn-secondary-gray-border-hover:#cfd4dc;
+
+  /* ---- Button: Tertiary Color ---- */
+  --btn-tertiary-color-fg:       #6941c6;
+  --btn-tertiary-color-fg-hover: #53389e;
+
+  /* ---- Button: Tertiary Gray ---- */
+  --btn-tertiary-gray-fg:       #414651;
+  --btn-tertiary-gray-fg-hover: #181d27;
+
+  /* ---- Spacing ---- */
+  --spacing-xxs: 2px;
+  --spacing-xs:  4px;
+  --spacing-sm:  6px;
+  --spacing-md:  8px;
+  --spacing-lg:  12px;
+  --spacing-xl:  16px;
+  --spacing-2xl: 20px;
+  --spacing-3xl: 24px;
+
+  /* ---- Radius ---- */
+  --radius-sm:   6px;
+  --radius-md:   8px;
+  --radius-lg:   10px;
+  --radius-xl:   12px;
+  --radius-2xl:  16px;
+  --radius-full: 9999px;
+
+  /* ---- Shadows ---- */
+  --shadow-xs:              0px 1px 2px 0px rgba(10,13,18,0.05);
+  --shadow-sm:              0px 1px 3px 0px rgba(10,13,18,0.10),
+                            0px 1px 2px -1px rgba(10,13,18,0.10);
+  --shadow-xs-skeuomorphic: 0px 1px 2px 0px rgba(10,13,18,0.05),
+                            inset 0px -2px 0px 0px rgba(10,13,18,0.05),
+                            inset 0px 0px 0px 1px rgba(10,13,18,0.18);
+  --shadow-focus-brand:     0px 0px 0px 4px rgba(127,86,217,0.24);
+  --shadow-focus-error:     0px 0px 0px 4px rgba(240,68,56,0.24);
+  --shadow-focus-gray:      0px 0px 0px 4px rgba(152,162,179,0.20);
+
+  /* ---- Typography ---- */
+  --font-family-body: "Inter", sans-serif;
+  --font-size-xs:  12px;
+  --font-size-sm:  14px;
+  --font-size-md:  16px;
+  --font-size-lg:  18px;
+  --font-size-xl:  20px;
+  --font-size-2xl: 24px;
+  --line-height-xs:  18px;
+  --line-height-sm:  20px;
+  --line-height-md:  24px;
+  --line-height-lg:  28px;
+  --line-height-xl:  30px;
+  --line-height-2xl: 32px;
+}
